@@ -4,6 +4,7 @@ import com.revature.dao.UserDAO;
 import com.revature.dao.UserDAOImpl;
 import com.revature.models.User;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class UserService {
@@ -49,4 +50,13 @@ public class UserService {
         return newUser;
     }
 
+    public void promoteUser() {
+        List<User> users = ud.getAllEmployees();
+        for(User user : users){
+            System.out.println("Id: " + user.getId() + " Name: " + user.getFirst() + " " + user.getLast());
+        }
+        System.out.println("Please enter id of employee you wish to promote");
+        int id = input.nextInt();
+        ud.promoteUser(id);
+    }
 }

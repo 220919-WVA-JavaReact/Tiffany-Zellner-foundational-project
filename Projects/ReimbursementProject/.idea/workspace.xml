@@ -5,38 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1dd139c-5e3b-460b-b0f0-6b1846c3510d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Assignments/myfirstwebapp/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/myfirstwebapp/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/myfirstwebapp/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/myfirstwebapp/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/myfirstwebapp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/myfirstwebapp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/myfirstwebapp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/myfirstwebapp/src/main/java/com/revature/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/myfirstwebapp/src/main/java/com/revature/SanityServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Assignments/myfirstwebapp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/ArrayList_assignment/src/main/java/com/revature/arraylist/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/ArrayList_assignment/src/main/java/com/revature/arraylist/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/ArrayList_assignment/target/classes/com/revature/arraylist/ArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/ArrayList_assignment/target/classes/com/revature/arraylist/ArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/MOCK_DATA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/calculator.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/persist-data.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/untitled/src/main/java/org/example/codingchallenge/Coding_Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/untitled/src/main/java/org/example/codingchallenge/Coding_Challenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Assignments/untitled/src/test/java/Coding_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignments/untitled/src/test/java/Coding_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/dao/TicketDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/dao/TicketDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/dao/TicketDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/dao/TicketDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/dao/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/dao/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/dao/UserDAOImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/service/TicketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/dao/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/dao/UserDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +51,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/Admin/OneDrive/Desktop/2022922- JavaReact/Tiffany-Zellner/Projects/ReimbursementProject",
+    "last_opened_file_path": "C:/Users/Admin/OneDrive/Desktop/Tiffany-Zellner-Foundational-Project/Projects/ReimbursementProject",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>

@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class User {
 
+    private int id;
     private String first;
     private String last;
     private String username;
@@ -20,6 +21,23 @@ public class User {
     }
 
     public User(){
+    }
+
+    public User(int id, String first, String last, String username, String password, boolean b) {
+        this.id = id;
+        this.first = first;
+        this.last = last;
+        this.username = username;
+        this.password = password;
+        this.isManager = isManager;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getFirst() {
@@ -65,7 +83,8 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "first='" + first + '\'' +
+                "id=" + id +
+                ", first='" + first + '\'' +
                 ", last='" + last + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +

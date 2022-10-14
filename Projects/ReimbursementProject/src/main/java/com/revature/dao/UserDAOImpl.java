@@ -7,6 +7,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class UserDAOImpl implements UserDAO{
 
@@ -83,4 +85,39 @@ public class UserDAOImpl implements UserDAO{
         }
         return user;
     }
+
+    @Override
+    public User promoteUser(int id) {
+        return null;
+    }
+
+    @Override
+    public List<User> getAllEmployees() {
+        List<User> users = new ArrayList<>();
+
+        try(Connection conn = ConnectionUtil.getConnection()) {
+            String sql = "SELECT * FROM users WHERE isManager = false";
+
+            PreparedStatement stmt = conn.prepareStatement(sql);
+            ResultSet rs;
+
+            if((rs = stmt.executeQuery()) != null){
+                while(rs.next()){
+                    int id = rs.getInt("id");
+                    String first = rs.getString("first");
+                    String last = rs.getString("last");
+                    String username = rs.getString("username");
+                    String password = rs.getString("password");
+
+                    User user = new User(id, first, last, username, password, false);
+                    users.add(user);
+                }
+            }
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        return users;
+    }
+
+
 }

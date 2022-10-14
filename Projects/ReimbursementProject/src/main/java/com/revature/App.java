@@ -63,7 +63,7 @@ public class App {
                             ts.changeTicketStatus();
                             break;
                         case "5":
-
+                            us.promoteUser();
                             break;
                         case "6":
                             loggedInUser = null;
