@@ -58,5 +58,7 @@ public class UserService {
         System.out.println("Please enter id of employee you wish to promote");
         int id = input.nextInt();
         ud.promoteUser(id);
+
+
     }
 }

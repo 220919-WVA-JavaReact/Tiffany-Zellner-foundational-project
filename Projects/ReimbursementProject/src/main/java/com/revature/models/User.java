@@ -23,7 +23,7 @@ public class User {
     public User(){
     }
 
-    public User(int id, String first, String last, String username, String password, boolean b) {
+    public User(int id, String first, String last, String username, String password, boolean isManager) {
         this.id = id;
         this.first = first;
         this.last = last;

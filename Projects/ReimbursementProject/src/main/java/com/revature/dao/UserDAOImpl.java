@@ -30,14 +30,14 @@ public class UserDAOImpl implements UserDAO{
 
                 rs.next();
 
-                int id = rs.getInt("id");
+                int id = rs.getInt("ID");
                 String first = rs.getString("first");
                 String last = rs.getString("last");
                 String receivedUsername = rs.getString("username");
                 String password = rs.getString("password");
                 boolean isManager = rs.getBoolean("ismanager");
 
-                byuser = new User(first, last, username, password, isManager);
+                byuser = new User(id, first, last, receivedUsername, password, isManager);
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -88,7 +88,30 @@ public class UserDAOImpl implements UserDAO{
 
     @Override
     public User promoteUser(int id) {
-        return null;
+        User user = new User();
+        try(Connection conn = ConnectionUtil.getConnection()) {
+            String sql = "UPDATE users SET isManager = true WHERE id = ? RETURNING *";
+
+            PreparedStatement stmt = conn.prepareStatement(sql);
+            stmt.setInt(1, id);
+            ResultSet rs;
+
+            if((rs = stmt.executeQuery()) != null){
+                rs.next();
+                    int receivedID = rs.getInt("id");
+                    String first = rs.getString("first");
+                    String last = rs.getString("last");
+                    String username = rs.getString("username");
+                    String password = rs.getString("password");
+                    Boolean isManager = rs.getBoolean("isManager");
+
+                    user = new User(receivedID, first, last, username, password, isManager);
+
+            }
+        } catch (SQLException e) {
+            System.out.println("User could not be promoted to manager");
+        }
+        return user;
     }
 
     @Override
